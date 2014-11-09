@@ -1,7 +1,8 @@
 package com.example.ifcustomerapp;
 
-import android.support.v7.app.ActionBarActivity;
+import android.content.Intent;
 import android.os.Bundle;
+import android.support.v7.app.ActionBarActivity;
 import android.view.Menu;
 import android.view.MenuItem;
 
@@ -26,7 +27,36 @@ public class ChooseStoreEventActivity extends ActionBarActivity {
 		// automatically handle clicks on the Home/Up button, so long
 		// as you specify a parent activity in AndroidManifest.xml.
 		int id = item.getItemId();
-		if (id == R.id.action_settings) {
+		if (id == R.id.action_wishList) {
+			Intent i = new Intent(getApplicationContext(),
+					WishListActivity.class);
+			finish();
+
+			startActivity(i);
+			return true;
+		}
+		if (id == R.id.action_profile) {
+			Intent i = new Intent(getApplicationContext(),
+					ProfileActivity.class);
+			finish();
+
+			startActivity(i);
+			return true;
+		}
+		if (id == R.id.action_scan) {
+			Intent i = new Intent(getApplicationContext(),
+					ScanSurpriseActivity.class);
+			finish();
+
+			startActivity(i);
+			return true;
+		}
+		if (id == R.id.action_calendar) {
+			Intent i = new Intent(getApplicationContext(),
+					CalendarActivity.class);
+			finish();
+
+			startActivity(i);
 			return true;
 		}
 		return super.onOptionsItemSelected(item);

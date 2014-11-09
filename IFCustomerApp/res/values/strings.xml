@@ -1,17 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">IFCustomerApp</string>
+    <string name="app_name">IF</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
     <string name="title_activity_profile">ProfileActivity</string>
-    <string name="title_activity_points_account">PointsAccountActivity</string>
-    <string name="title_activity_wish_list">WishListActivity</string>
-    <string name="title_activity_wish_list_detail">WishListDetailActivity</string>
-    <string name="title_activity_scan_surprise">ScanSurpriseActivity</string>
-    <string name="title_activity_suprise_result">SupriseResultActivity</string>
-    <string name="title_activity_choose_store_event">ChooseStoreEventActivity</string>
-    <string name="title_activity_calendar">CalendarActivity</string>
-    <string name="title_activity_event_detail">EventDetailActivity</string>
+    <string name="title_activity_wish_list">My Wish List</string>
+    <string name="title_activity_wish_list_detail">Item Details</string>
+    <string name="title_activity_scan_surprise">Scan Surprise</string>
+    <string name="title_activity_suprise_result">Result</string>
+    <string name="title_activity_choose_store_event">Event List</string>
+    <string name="title_activity_calendar">Calendar</string>
+    <string name="title_activity_event_detail">Event Details</string>
+
+    <!-- menu items -->
+    <string name="action_wishList">wishList</string>
+    <string name="action_profile">profile</string>
+    <string name="action_scan">scan</string>
+    <string name="action_calendar">calendar</string>
+
+    <!-- login -->
+    <string name="login">Login</string>
+    <string name="title_activity_about_us">AboutUs</string>
+    
+    <!-- Scan QR -->
+    <string name="scan_text">Scan QR Code</string>
 
 </resources>
